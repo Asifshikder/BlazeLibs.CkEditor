@@ -1,0 +1,13 @@
+﻿@page "/"
+<PageTitle>Index</PageTitle>
+
+<h1>CkEditor Example</h1>
+
+<p>The library used here is owned by CKEDITOR</p>
+This is a demo that how you can use ckeditor with blazor.
+<BlazeLibs.CkEditor.CkEditor Id="demo_ecitor"
+                             @bind-Value=@DemoText
+                             UrlToPostImage="https://example.com/uploadroute"></BlazeLibs.CkEditor.CkEditor>
+@code {
+    public string DemoText { get; set; }
+}

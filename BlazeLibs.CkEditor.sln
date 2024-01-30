@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazeLibs.CkEditor", "BlazeLibs.CkEditor\BlazeLibs.CkEditor.csproj", "{F6442C6D-CEE7-4427-AC64-91AA85D90DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazeLibs.Example.Client", "BlazeLibs.Example\Client\BlazeLibs.Example.Client.csproj", "{41605FE1-9CE3-412B-86AB-E1BD9B77F89B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6442C6D-CEE7-4427-AC64-91AA85D90DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6442C6D-CEE7-4427-AC64-91AA85D90DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6442C6D-CEE7-4427-AC64-91AA85D90DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6442C6D-CEE7-4427-AC64-91AA85D90DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41605FE1-9CE3-412B-86AB-E1BD9B77F89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41605FE1-9CE3-412B-86AB-E1BD9B77F89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41605FE1-9CE3-412B-86AB-E1BD9B77F89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41605FE1-9CE3-412B-86AB-E1BD9B77F89B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CBE39A4-0118-4FA7-B640-95E04A300728}
+	EndGlobalSection
+EndGlobal

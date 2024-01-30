@@ -1,0 +1,36 @@
+﻿@page "/form-example"
+
+<PageTitle>From Example</PageTitle>
+
+<h1>Form</h1>
+
+<EditForm Model="Model" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <div class="mb-3 form-group">
+        <label for="Title" class="input-label">Title</label>
+        <InputText @bind-Value="Model.Title" class="form-control"></InputText>
+        <ValidationMessage For="@(() => Model.Title)" />
+    </div>
+    <div class="mb-3 form-group">
+        <label for="Overview" class="input-label">Overview</label>
+        <InputText @bind-Value="Model.Overview" class="form-control"></InputText>
+        <ValidationMessage For="@(() => Model.Overview)" />
+    </div>
+
+    <div class="mb-3 form-group">
+        <label for="Overview" class="input-label">Body</label>
+
+        <BlazeLibs.CkEditor.CkEditor Id="demo_editor"
+                                     @bind-Value=@Model.Body
+                                     UrlToPostImage="https://example.com/uploadroute"></BlazeLibs.CkEditor.CkEditor>
+    </div>
+
+</EditForm>
+
+@code {
+    public DemoFromModel Model = new DemoFromModel();
+    public void HandleSubmit()
+    {
+
+    }
+}
